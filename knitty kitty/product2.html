@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Whisker Pattern — Knitty Kitty</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+<body class="subpage">
+  <header class="navbar">
+    <div class="nav-inner container">
+      <a class="brand" href="index.html"><img src="assets/logo.jpg" class="logo" alt=""><span>Knitty Kitty</span></a>
+      <nav class="nav-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#products" class="active">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="product container">
+    <div class="product-media">
+      <img src="assets/catch.jpg" alt="The Cat-ch Sweater">
+    </div>
+    <div class="product-info">
+      <h1>The Cat-ch Sweater</h1>
+      <p class="price">$72</p>
+      <p>Whether you’re sprinting, stretching, or just spectating, this sports sweater keeps you warm, light, and ready to pounce. Knitted for comfort, styled for play —
+         because every game’s better with a touch of purr-sonality.</p>
+      <div class="action-row">
+        <button class="btn btn-dark add-to-cart"
+                data-id="2"
+                data-name="The Cat-ch Sweater"
+                data-price="72"
+                data-image="https://images.unsplash.com/photo-1548883354-844e716d8d2a?q=80&w=800&auto=format&fit=crop">
+          Add to Cart
+        </button>
+        <a class="btn btn-outline" href="checkout.html">Checkout</a>
+      </div>
+    </div>
+  </main>
+  <footer class="footer simple"><div class="container">© <span id="year"></span> Knitty Kitty</div></footer>
+ <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meow Muffler — Knitty Kitty</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+<body class="subpage">
+  <header class="navbar">
+    <div class="nav-inner container">
+      <a class="brand" href="index.html"><img src="assets/logo.jpg" class="logo" alt=""><span>Knitty Kitty</span></a>
+      <nav class="nav-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#products" class="active">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="product container">
+    <div class="product-media">
+      <img src="assets/muffler.jpg" alt="Meow Muffler">
+    </div>
+    <div class="product-info">
+      <h1>Meow Muffler</h1>
+      <p class="price">$79</p>
+      <p>Long, warm, and purrfect for wrapping up like a cozy kitty.  Whether you’re braving the cold or just feeling fancy, this scarf’s got you covered… literally
+Pick your purrfect colors and pattern — drop them below or send us a meow-mail, and we’ll knit it just for you.</p>
+      <div class="action-row">
+        <button class="btn btn-dark add-to-cart"
+                data-id="3"
+                data-name="Meow Muffler"
+                data-price="79"
+                data-image="https://images.unsplash.com/photo-1616002852426-98f055b43d72?q=80&w=800&auto=format&fit=crop">
+          Add to Cart
+        </button>
+        <a class="btn btn-outline" href="checkout.html">Checkout</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer simple"><div class="container">© <span id="year"></span> Knitty Kitty</div></footer>
+ <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Cart — Knitty Kitty</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+  <script defer src="cart.js"></script>
+</head>
+<body class="subpage">
+  <header class="navbar">
+    <div class="nav-inner container">
+      <a class="brand" href="index.html"><img src="assets/logo.jpg" class="logo" alt=""><span>Knitty Kitty</span></a>
+      <nav class="nav-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#products">Products</a>
+        <a href="cart.html" class="active">Cart</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container cart-page">
+    <h1>Your Cart</h1>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-summary">
+      <div><strong>Subtotal:</strong> <span id="cart-subtotal">$0</span></div>
+      <div class="cart-actions">
+        <a href="index.html#products" class="btn btn-outline">Continue Shopping</a>
+        <a href="checkout.html" class="btn btn-dark" id="to-checkout">Proceed to Checkout</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer simple"><div class="container">© <span id="year"></span> Knitty Kitty</div></footer>
+ 
+
+</body>
+</html>

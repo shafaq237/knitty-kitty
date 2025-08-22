@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Patched knitted cardigan — Knitty Kitty</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+<body class="subpage">
+  <header class="navbar">
+    <div class="nav-inner container">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.jpg" alt="Knitty Kitty" class="logo"><span>Knitty Kitty</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#products" class="active">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="product container">
+    <div class="product-media">
+      <img src="assets/cardigan.jpg" alt="Patched knitted cardigan">
+    </div>
+    <div class="product-info">
+      <h1>Patched knitted cardigan</h1>
+      <p class="price">$64</p>
+      <p>I chased the yarn, batted the patches, and maybe took a few naps in between. Now you have the coziest cardigan, stitched with mischief, warmth, and a sprinkle of purr-sonality. Wear it, and you’re basically one of us cats.
+</p>
+      <div class="action-row">
+        <button class="btn btn-dark add-to-cart"
+                data-id="1"
+                data-name="Patched knitted cardigan"
+                data-price="64"
+                data-image="https://images.unsplash.com/photo-1601333144119-6d42a1b9e53f?q=80&w=800&auto=format&fit=crop">
+          Add to Cart
+        </button>
+        <a class="btn btn-outline" href="checkout.html">Checkout</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer simple">
+    <div class="container">© <span id="year"></span> Knitty Kitty</div>
+  </footer>
+   <script src="app.js"></script>
+</body>
+</html>
